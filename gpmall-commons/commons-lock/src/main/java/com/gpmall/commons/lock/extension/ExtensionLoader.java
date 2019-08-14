@@ -29,7 +29,7 @@ public class ExtensionLoader<T> {
 
     private static final ConcurrentMap<Class<?>, Object> EXTENSION_INSTANCES = new ConcurrentHashMap<Class<?>, Object>();
 
-    private static final Map<Class, ExtensionLoader> extension_load_map = new ConcurrentHashMap<>(16);
+    private static final Map<Class, ExtensionLoader> extension_load_map = new ConcurrentHashMap<Class, ExtensionLoader>(16);
 
     private final ConcurrentMap<String, Holder<Object>> cachedInstances = new ConcurrentHashMap<String, Holder<Object>>();
 
