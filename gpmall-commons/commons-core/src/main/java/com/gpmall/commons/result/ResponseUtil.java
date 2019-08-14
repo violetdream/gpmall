@@ -11,7 +11,7 @@ public class ResponseUtil<T> {
     private ResponseData<T> responseData;
 
     public ResponseUtil() {
-        responseData = new ResponseData<>();
+        responseData = new ResponseData<T>();
         responseData.setSuccess(true);
         responseData.setMessage("success");
         responseData.setCode(200);
