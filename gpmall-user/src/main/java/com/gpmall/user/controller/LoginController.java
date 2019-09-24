@@ -13,6 +13,7 @@ import com.gpmall.user.dto.KaptchaCodeResponse;
 import com.gpmall.user.dto.UserLoginRequest;
 import com.gpmall.user.dto.UserLoginResponse;
 import com.gpmall.user.intercepter.TokenIntercepter;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
@@ -31,6 +32,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/user")
+@Slf4j
 public class LoginController {
 
     @Reference(timeout = 3000)
@@ -65,6 +67,7 @@ public class LoginController {
             }
         }
         UserLoginResponse userLoginResponse=iUserLoginService.login(loginRequest);
+        log.info("Login Response : "+userLoginResponse);
         if(userLoginResponse.getCode().equals(SysRetCodeConstants.SUCCESS.getCode())) {
             Cookie cookie=CookieUtil.genCookie(TokenIntercepter.ACCESS_TOKEN,userLoginResponse.getToken(),"/",24*60*60);
             cookie.setHttpOnly(true);

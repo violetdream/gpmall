@@ -23,7 +23,7 @@
   
   <sql id="BaseColumns">
     <!-- WARNING - @mbg.generated -->
-    id, username, password, phone, email, created, updated, sex, address, state, file, description, points, balance
+    id, username, password phone, email, created, updated, sex, address, state, file, description, points, balance
   </sql>
   
 </mapper>

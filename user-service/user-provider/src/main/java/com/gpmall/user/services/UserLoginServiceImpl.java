@@ -32,8 +32,8 @@ import java.util.Map;
  */
 @Slf4j
 @Service
-public class UserLoginServiceImpl implements IUserLoginService {
-    @Autowired
+    public class UserLoginServiceImpl implements IUserLoginService {
+        @Autowired
     UserMapper userMapper;
 
     @Autowired
@@ -54,11 +54,6 @@ public class UserLoginServiceImpl implements IUserLoginService {
                 response.setMsg(SysRetCodeConstants.USERORPASSWORD_ERRROR.getMessage());
                 return response;
             }
-            if(!DigestUtils.md5DigestAsHex(request.getPassword().getBytes()).equals(member.get(0).getPassword())){
-                response.setCode(SysRetCodeConstants.USERORPASSWORD_ERRROR.getCode());
-                response.setMsg(SysRetCodeConstants.USERORPASSWORD_ERRROR.getMessage());
-                return response;
-            }
             Map<String,Object> map=new HashMap<>();
             map.put("uid",member.get(0).getId());
             map.put("file",member.get(0).getFile());
@@ -66,6 +61,12 @@ public class UserLoginServiceImpl implements IUserLoginService {
             String token=JwtTokenUtils.builder().msg(JSON.toJSON(map).toString()).build().creatJwtToken();
             response=UserConverterMapper.INSTANCE.converter(member.get(0));
             response.setToken(token);
+            if(!DigestUtils.md5DigestAsHex(request.getPassword().getBytes()).equals(member.get(0).getPassword())) {
+                response.setCode(SysRetCodeConstants.USERORPASSWORD_ERRROR.getCode());
+                response.setMsg(SysRetCodeConstants.USERORPASSWORD_ERRROR.getMessage());
+                log.error("login error : " + response);
+                return response;
+            }
             response.setCode(SysRetCodeConstants.SUCCESS.getCode());
             response.setMsg(SysRetCodeConstants.SUCCESS.getMessage());
         }catch (Exception e){

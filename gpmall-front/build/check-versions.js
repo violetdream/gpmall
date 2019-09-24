@@ -14,10 +14,10 @@ var versionRequirements = [
   },
 ]
 
-if (shell.which('npm')) {
+if (shell.which('node')) {
   versionRequirements.push({
-    name: 'npm',
-    currentVersion: exec('npm --version'),
+    name: 'node',
+    currentVersion: exec('node --version'),
     versionRequirement: packageConfig.engines.npm
   })
 }

@@ -1,0 +1,534 @@
+[33mcommit fab1243c5b4163c7973e3417183090c3cbde0ecd[m[33m ([m[1;36mHEAD -> [m[1;32mstu_dev_0809[m[33m, [m[1;31morigin/stu_dev_0809[m[33m)[m
+Merge: 64e528f aafcab9
+Author: violetdream <liuxianweimarx@163.com>
+Date:   Wed Aug 21 18:58:02 2019 +0800
+
+    Merge remote-tracking branch 'upstream/stu_dev_0809' into stu_dev_0809
+
+[33mcommit aafcab919d2173ee5ec45f604d8abc52ec40d8ca[m
+Merge: 029d73e 6926da2
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Wed Aug 21 12:17:30 2019 +0800
+
+    Merge pull request #129 from liuchenghong6079/master
+    
+    mysql脚本执行错误修改提交
+
+[33mcommit 6926da24a4080becddb617b1442e4a1afd6b788a[m
+Author: liuchenghong6079 <liuchenghong6079@163.com>
+Date:   Wed Aug 21 11:11:44 2019 +0800
+
+    字段错误修改
+
+[33mcommit 029d73e0274c6cea39718174e5b62926f42f3e6d[m
+Author: 2227324689 <2227324689@qq.com>
+Date:   Wed Aug 21 10:58:28 2019 +0800
+
+    readme
+
+[33mcommit e7b0e51331f459c5e67a975f03540ab08816fbea[m
+Author: liuchenghong6079 <liuchenghong6079@163.com>
+Date:   Tue Aug 20 23:06:07 2019 +0800
+
+    数据库脚本执行错误修改提交
+
+[33mcommit c4e7ee73661a6e357cd1b19e94add7acd6117eae[m
+Merge: 241b212 4352f40
+Author: liuchenghong6079 <32353675+liuchenghong6079@users.noreply.github.com>
+Date:   Tue Aug 20 22:23:24 2019 +0800
+
+    Merge pull request #5 from 2227324689/master
+    
+    update pull merge
+
+[33mcommit 4352f4050e9c2f0ecfea969f9375ea1a48233f44[m
+Merge: deef89d 12883af
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Tue Aug 20 15:15:04 2019 +0800
+
+    Merge pull request #123 from 2227324689/stu_dev_0809
+    
+    Stu dev 0809
+
+[33mcommit 12883af0ce27c48dfedb109d46a22689bab0b1e6[m
+Author: 2227324689 <2227324689@qq.com>
+Date:   Tue Aug 20 15:14:34 2019 +0800
+
+    去除敏感信息
+
+[33mcommit 256f1111817b521be98ce18b22fa35edee970d91[m
+Author: 2227324689 <2227324689@qq.com>
+Date:   Tue Aug 20 15:11:45 2019 +0800
+
+    修改readme
+
+[33mcommit 9f0096c4724ad9d003fa76aca7ce3488ea1ca70f[m
+Merge: 9d11c7e 02a6b2e
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Tue Aug 20 15:08:50 2019 +0800
+
+    Merge pull request #122 from wz510172336/stu_dev_0809_510172336
+    
+    Stu dev 0809 510172336
+
+[33mcommit 02a6b2e9aeecdccbc61589ea6125e11eb40b8157[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Tue Aug 20 14:02:29 2019 +0800
+
+    配置文件修改
+
+[33mcommit deef89dd978889aa8da4f92db2806cd2705bb811[m
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Tue Aug 20 13:52:22 2019 +0800
+
+    Create LICENSE
+
+[33mcommit 9d11c7eac6f1148690f379167bf7a83f5f315e0b[m
+Merge: 2c9c01c 26bc1b1
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Tue Aug 20 13:31:41 2019 +0800
+
+    Merge pull request #121 from jerry-sk/stu_dev_0809
+    
+     添加Curator的父依赖; ZK分布式锁实现第二种方式
+
+[33mcommit 261b7a4679c1b70e5e77b878331d663c95c11ce2[m
+Merge: c9599d0 2c9c01c
+Author: wangzhong <wz@weiyian.com>
+Date:   Tue Aug 20 13:16:31 2019 +0800
+
+    Merge branch 'stu_dev_0809' into stu_dev_0809_510172336
+
+[33mcommit c9599d0b687d655683937f6b1862ff33b1897d60[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Tue Aug 20 13:12:18 2019 +0800
+
+    继续提交
+    
+    继续提交
+
+[33mcommit 11a73ef7224b311e54ba0b5e7811e46d1d65f626[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Tue Aug 20 13:08:53 2019 +0800
+
+    支付部分代码修改
+    
+    支付部分代码修改
+
+[33mcommit 26bc1b19f4e959ae6bca592cb8686d2a188d8d5e[m
+Merge: 8e090c9 cb28f43
+Author: jerry_sk <jerry_sk>
+Date:   Tue Aug 20 12:34:24 2019 +0800
+
+    Merge branch 'stu_dev_0809' of https://github.com/jerry-sk/gpmall into stu_dev_0809
+
+[33mcommit 8e090c97610b926259c04a105eaafe4dd385baa5[m
+Author: jerry_sk <jerry_sk>
+Date:   Tue Aug 20 12:34:14 2019 +0800
+
+    分布式锁实现第二种方式
+
+[33mcommit cb28f433c02ba9f0a41659f1d8c6e7bf433a2b16[m
+Merge: 615d4db 2c9c01c
+Author: jerry-sk <47777359+jerry-sk@users.noreply.github.com>
+Date:   Tue Aug 20 12:29:13 2019 +0800
+
+    Merge pull request #1 from 2227324689/stu_dev_0809
+    
+    Stu dev 0809
+
+[33mcommit 2c9c01c8af15bb2d170a586b856a223c5c77f5f8[m
+Merge: 615d4db 41961de
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Tue Aug 20 10:19:18 2019 +0800
+
+    Merge pull request #120 from 2227324689/stu_dev_478606127
+    
+    Stu dev 478606127
+
+[33mcommit 3f63eb07a3fb7bd28f71a42b18756c06816acf0c[m
+Author: jerry_sk <jerry_sk>
+Date:   Tue Aug 20 09:46:17 2019 +0800
+
+    添加Curator的父依赖
+
+[33mcommit 41961de92678746be88d6281eaa4f38787649253[m[33m ([m[1;31mupstream/stu_dev_478606127[m[33m)[m
+Author: oahnus <15751774919@163.com>
+Date:   Tue Aug 20 00:13:11 2019 +0800
+
+    update 优惠券
+
+[33mcommit f70c9d2feca60c5a29bbbfa8722cb8c44cdbb294[m
+Author: oahnus <15751774919@163.com>
+Date:   Mon Aug 19 23:18:50 2019 +0800
+
+    feat 评论初稿
+    * fix SQL语句image_big字段缺失
+    * fix 修改配置文件为默认用户名密码，保持统一
+    * feat 商品详情页新增评论显示区
+
+[33mcommit 241b212fb808cff8345b94bcc7d94c1fb7a23518[m
+Merge: f6887fe adb09da
+Author: liuchenghong6079 <32353675+liuchenghong6079@users.noreply.github.com>
+Date:   Mon Aug 19 22:32:23 2019 +0800
+
+    Merge pull request #4 from 2227324689/master
+    
+    update merge
+
+[33mcommit adb09da307096255b2f171fa424bcd93bd679647[m
+Merge: 3f9a5af 615d4db
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Mon Aug 19 15:21:46 2019 +0800
+
+    Merge pull request #118 from 2227324689/stu_dev_0809
+    
+    Stu dev 0809
+
+[33mcommit 615d4db79cd23c73aab743e77748dfcdca4fe3eb[m
+Author: 2227324689 <2227324689@qq.com>
+Date:   Mon Aug 19 15:20:10 2019 +0800
+
+    修复bug“
+
+[33mcommit c26e3897bac8bbf08e2d159d7beabe3842b871af[m
+Merge: 2e2b833 530f400
+Author: wangzhong <wz@weiyian.com>
+Date:   Mon Aug 19 14:18:18 2019 +0800
+
+    Merge branch 'stu_dev_0809' into stu_dev_0809_510172336
+
+[33mcommit 2e2b833922d83b6c61610ea9b1da74caa74880f6[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Mon Aug 19 14:14:18 2019 +0800
+
+    url地址修改
+
+[33mcommit efdf69e0ff0f08f8d8c90ad1de70f3538e7c68f9[m
+Merge: 425b23b 6eec06a
+Author: wangzhong <wz@weiyian.com>
+Date:   Mon Aug 19 13:45:03 2019 +0800
+
+    Merge branch 'stu_dev_0809_510172336' of https://github.com/wz510172336/gpmall into stu_dev_0809_510172336
+
+[33mcommit 425b23b3f621a53b9beb90d61665bbb7d4036739[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Mon Aug 19 13:45:00 2019 +0800
+
+    Merge pull request #114 from wz510172336/stu_dev_0809_510172336
+    
+    冲突修改
+
+[33mcommit 530f400a030bf355c8b2592b20cda4e139e2c659[m
+Merge: de0d0e4 10566ef
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Mon Aug 19 13:31:39 2019 +0800
+
+    Merge pull request #117 from 2227324689/stu_dev_0812_937345232
+    
+    orderMapper/OrderItemMapper 还原
+
+[33mcommit de0d0e428459f81ab9c5fa82d504a3c5406e20ce[m
+Author: 2227324689 <2227324689@qq.com>
+Date:   Mon Aug 19 13:29:23 2019 +0800
+
+    修复bug
+
+[33mcommit 10566ef8293ab08de28cfa44375c0324b440f50f[m[33m ([m[1;31mupstream/stu_dev_0812_937345232[m[33m)[m
+Author: 937345232 <0307434x>
+Date:   Mon Aug 19 13:29:10 2019 +0800
+
+    orderMapper/OrderItemMapper 还原
+
+[33mcommit ca366e37af6b80827d32fcfb36a7c8c1e5e4d594[m
+Merge: 9fd2fd5 6eec06a
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Mon Aug 19 11:18:33 2019 +0800
+
+    Merge pull request #114 from wz510172336/stu_dev_0809_510172336
+    
+    冲突修改
+
+[33mcommit 6eec06a9b1a108a4de0236d16f0e19e7568ae8d4[m
+Merge: fb3d273 9fd2fd5
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Mon Aug 19 11:18:22 2019 +0800
+
+    Merge branch 'stu_dev_0809' into stu_dev_0809_510172336
+
+[33mcommit 9fd2fd57ec948a72d93f2d4a739fb7c029ec72b8[m
+Merge: ac115b7 4f214c9
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Mon Aug 19 11:15:09 2019 +0800
+
+    Merge pull request #116 from hepengshuai/stu_dev_1072685605
+    
+    Stu dev 1072685605
+
+[33mcommit fb3d2739536957b6d51c842e8467a142cae5a971[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Sun Aug 18 23:34:33 2019 +0800
+
+    支付代码基本完成，金额验证部分还没做，有些地方还待完善
+    
+    支付代码基本完成，金额验证部分还没做，有些地方还待完善
+
+[33mcommit 4f214c9123e32e16e3e24641d0430a288cdce9b5[m
+Author: hps <1072685605@qq.com>
+Date:   Sun Aug 18 23:09:47 2019 +0800
+
+    修复接口文档合并冲突
+
+[33mcommit 73b538e41e95a13b87b86145fb9ee2f3e2fba161[m
+Merge: aff5205 a9121ff
+Author: hps <1072685605@qq.com>
+Date:   Sun Aug 18 23:07:39 2019 +0800
+
+    Merge branch 'stu_dev_0809' into stu_dev_1072685605
+
+[33mcommit a9121ff4ee52bdc2bd80529c2898696258c92899[m
+Author: hps <1072685605@qq.com>
+Date:   Sun Aug 18 23:07:11 2019 +0800
+
+    a
+
+[33mcommit aff5205e2347e9b17866e0a84b1bc8131701a8f0[m
+Author: hps <1072685605@qq.com>
+Date:   Sun Aug 18 23:02:36 2019 +0800
+
+    修改删除评价接口文档用户id类型
+
+[33mcommit 31ab53f6101259c348514e713c80cbb218b048e9[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Sun Aug 18 22:53:30 2019 +0800
+
+    支付代码基本完成，待完善
+    
+    支付代码基本完成，待完善
+
+[33mcommit 8c9f6b52403d15c08b4f8bbabd4373d4941c180b[m
+Author: hps <1072685605@qq.com>
+Date:   Sun Aug 18 22:51:25 2019 +0800
+
+    添加计算商品综合评分接口
+
+[33mcommit 33f7225c14559cf3ea01eb036ea346ce03d58596[m
+Author: hps <1072685605@qq.com>
+Date:   Sun Aug 18 22:17:26 2019 +0800
+
+    1、添加删除商品评价接口
+    2、添加商品评价置顶接口
+    3、添加商品评价审核接口
+
+[33mcommit ac115b75d87399c849d22bf1b3caefc57eb3b716[m
+Merge: 51c0439 5c83bff
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Sun Aug 18 16:08:20 2019 +0800
+
+    Merge pull request #113 from zhangzhenguo2/stu_dev_562035092
+    
+    Stu dev 562035092
+
+[33mcommit f258d0416f2db73d03f5d052bfb2fe538e5b8d7c[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Sun Aug 18 14:56:44 2019 +0800
+
+    冲突修改
+    
+    冲突修改
+
+[33mcommit 5c83bffe094a9061b24648cfa069d289007551ca[m
+Merge: 852d10e 51c0439
+Author: zhangzhenguo2 <53671693+zhangzhenguo2@users.noreply.github.com>
+Date:   Sun Aug 18 14:18:38 2019 +0800
+
+    Merge branch 'stu_dev_0809' into stu_dev_562035092
+
+[33mcommit 51c0439871f185178376d55796a02936ee45dfa8[m
+Merge: ef23154 31abcd9
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Sun Aug 18 12:26:10 2019 +0800
+
+    Merge pull request #112 from 2227324689/stu_dev_1176325113
+    
+    Stu dev 1176325113
+
+[33mcommit ef23154e5fedab070276f64d7655ca53d713d276[m
+Merge: 0d11f47 7bec9f4
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Sun Aug 18 11:57:04 2019 +0800
+
+    Merge pull request #111 from wz510172336/stu_dev_0809_510172336
+    
+    支付相关代码
+
+[33mcommit 7bec9f42a7ac919bee7a3296e2a03970c9da8969[m
+Merge: 4a9e1ac 0d11f47
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Sun Aug 18 11:56:46 2019 +0800
+
+    Merge branch 'stu_dev_0809' into stu_dev_0809_510172336
+
+[33mcommit 852d10e7b4fe9849a581863548d39ed26ae5cce1[m
+Author: zhangzhenguo <562035092@qq.com>
+Date:   Sun Aug 18 11:23:31 2019 +0800
+
+    冲突
+
+[33mcommit 4a9e1ac0053face80cedd0157e739ae5fb9cae3e[m
+Author: wangzhong <wz@weiyian.com>
+Date:   Sun Aug 18 11:21:48 2019 +0800
+
+    支付相关代码
+    
+    支付相关代码
+
+[33mcommit 0d11f47db884632d8d6ef66d1f117c56a9fd8cff[m
+Merge: d74b668 4f94426
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Sun Aug 18 11:19:20 2019 +0800
+
+    Merge pull request #110 from hepengshuai/stu_dev_1072685605
+    
+    Stu dev 1072685605
+
+[33mcommit a360490023d8ff7756dfe4ca7d6e8625d3ea18b0[m
+Author: zhangzhenguo <562035092@qq.com>
+Date:   Sun Aug 18 10:37:48 2019 +0800
+
+    “confict
+
+[33mcommit 4f9442654006f784864ca40c071a1f71507fc492[m
+Author: hps <1072685605@qq.com>
+Date:   Sat Aug 17 23:31:22 2019 +0800
+
+    添加查询某个商品的评价总数接口
+
+[33mcommit d74b668cce3321f2b8c2bc14d0fff72c99f9ce8a[m
+Merge: a348828 a5fd097
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Sat Aug 17 16:43:48 2019 +0800
+
+    Merge pull request #107 from warApePoint/stu_dev_0809
+    
+     修复支付服务提供者stu_dev_0809
+
+[33mcommit 31abcd90e3b504fecc8a3fbab6c7d19d72a97edd[m
+Author: guaoran <guchengniuniu@163.com>
+Date:   Sat Aug 17 16:42:25 2019 +0800
+
+    修改配置文件密码不统一问题
+
+[33mcommit 6cd379e07341230c60ddc809fdb050e654836037[m
+Author: guaoran <guchengniuniu@163.com>
+Date:   Sat Aug 17 16:40:40 2019 +0800
+
+    1.修改gpmall-user 测试端口改为前端一致；2.修改pay-provider 中 alipay config 注入配置文件名称错误；3.修改 user-provider 中因 tk.mybatis 依赖导致登录失败问题
+
+[33mcommit a5fd097c8032ab8c7998ab5a877a1234f23d75ed[m
+Author: warApe <13240493427A2163.com>
+Date:   Sat Aug 17 12:12:13 2019 +0800
+
+    修复支付服务提供者获取配置文件参数错误(少前缀)导致启动失败bug
+
+[33mcommit 3f9a5af20412f7aa0a832b6c9481239e2216a9c2[m
+Merge: c38bc32 a348828
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Sat Aug 17 11:34:32 2019 +0800
+
+    Merge pull request #106 from 2227324689/stu_dev_0809
+    
+    Stu dev 0809
+
+[33mcommit a348828079fecc4dabd010d2605c29c4d3800d1e[m
+Merge: 9a1d18c fb229f3
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Sat Aug 17 11:34:06 2019 +0800
+
+    Merge pull request #105 from 2227324689/search_dev_0809
+    
+    Search dev 0809
+
+[33mcommit 9aca24952d2bf20ec349dd47c1866fb456946ee9[m
+Merge: e3bab98 9a1d18c
+Author: hepengshuai <hepengshuai2016@gmail.com>
+Date:   Sat Aug 17 09:56:18 2019 +0800
+
+    Merge pull request #15 from 2227324689/stu_dev_0809
+    
+    Stu dev 0809
+
+[33mcommit fb229f3e7a83464f60da1e5c7caa84f746bc55f7[m
+Author: leon <1311552105@qq.com>
+Date:   Fri Aug 16 22:10:53 2019 +0800
+
+    搜索模块简介及安装elk环境
+
+[33mcommit 9a1d18cfa2aaf97ac3c906183a5db527a7879a11[m
+Merge: c30cb82 29071ce
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Fri Aug 16 20:57:00 2019 +0800
+
+    Merge pull request #104 from wwyywg/master
+    
+    "微信" 改成 "支付宝"
+
+[33mcommit 29071cef9fb27db35e254795a81eb9683ad6aaca[m
+Author: wangwu <1065908163@qq.com>
+Date:   Fri Aug 16 19:50:28 2019 +0800
+
+    "微信" 改成 "支付宝"
+
+[33mcommit c30cb82a4d0dd0fb6193dcea8ac9929faafbe8d0[m
+Merge: 7cc16d0 05528d1
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Fri Aug 16 16:54:13 2019 +0800
+
+    Merge pull request #103 from 2227324689/stu_dev_0812_937345232
+    
+    Stu dev 0812 937345232
+
+[33mcommit 05528d1cf436668bc21b65dcec7c0078ca404eec[m
+Author: 未完待续~ <tufeng1992@163.com>
+Date:   Fri Aug 16 16:12:07 2019 +0800
+
+    1.修复parent的版本冲突问题。
+    2.在comment、coupon、search项目中集成tkmapper并修改原始的mbg生成的代码。
+    3.调整其他的一些地方版本和tkmapper配置的统一管理。
+    
+    --280309791
+
+[33mcommit 56b5d9e98e0cef562a902d56ade4fe4cdcf2f587[m
+Author: 未完待续~ <tufeng1992@163.com>
+Date:   Fri Aug 16 16:09:18 2019 +0800
+
+    1.修复parent的版本冲突问题。
+    2.在comment、coupon、search项目中集成tkmapper并修改原始的mbg生成的代码。
+    3.调整其他的一些地方版本和tkmapper配置的统一管理。
+    
+    --280309791
+
+[33mcommit 0b0deb8fb9d8248521332f91da644d1487c1d44f[m
+Merge: 933fa85 7cc16d0
+Author: 未完待续~ <tufeng1992@163.com>
+Date:   Fri Aug 16 14:08:33 2019 +0800
+
+    Merge remote-tracking branch 'origin/stu_dev_0809' into stu_dev_0809
+
+[33mcommit 7cc16d054d1d6b6513684acc88145c1036a766f8[m
+Merge: 3d24568 7766a49
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Fri Aug 16 13:44:38 2019 +0800
+
+    Merge pull request #98 from 2227324689/stu_dev_0812_937345232
+    
+    Stu dev 0812 937345232
+
+[33mcommit 3d2456891a9d9e404d60e2a21d892d8f26e4fb2d[m
+Merge: 5a160e9 56e9caf
+Author: Mic <52684867+2227324689@users.noreply.github.com>
+Date:   Fri Aug 16 13:43:27 2019 +0800
+
+    Merge pull request #102 from warApePoint/stu_dev_0809
+    
+    修改事务不生效BUG
