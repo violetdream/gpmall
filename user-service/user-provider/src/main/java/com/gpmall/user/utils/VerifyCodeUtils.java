@@ -253,9 +253,7 @@ public class VerifyCodeUtils {
                 g.drawLine(i, (int) d, i, 0);
                 g.drawLine(i, (int) d + h1, i, h1);
             }
-
         }
-
     }
     public static ImageResult VerifyCode(int w, int h, int size) throws IOException {
         BASE64Encoder encoder = new BASE64Encoder();
