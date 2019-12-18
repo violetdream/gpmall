@@ -1,4 +1,4 @@
-package com.gpmall.user.services;
+﻿package com.gpmall.user.services;
 
 import com.alibaba.fastjson.JSON;
 import com.gpmall.user.IUserLoginService;
@@ -54,6 +54,18 @@ import java.util.Map;
                 response.setMsg(SysRetCodeConstants.USERORPASSWORD_ERRROR.getMessage());
                 return response;
             }
+            //验证是否已经激活
+            if("N".equals(member.get(0).getIsVerified())){
+                response.setCode(SysRetCodeConstants.USERORPASSWORD_ERRROR.getCode());
+                response.setMsg(SysRetCodeConstants.USERORPASSWORD_ERRROR.getMessage());
+                return response;
+            }
+            if(!DigestUtils.md5DigestAsHex(request.getPassword().getBytes()).equals(member.get(0).getPassword())){
+                response.setCode(SysRetCodeConstants.USERORPASSWORD_ERRROR.getCode());
+                response.setMsg(SysRetCodeConstants.USERORPASSWORD_ERRROR.getMessage());
+                return response;
+            }
+
             Map<String,Object> map=new HashMap<>();
             map.put("uid",member.get(0).getId());
             map.put("file",member.get(0).getFile());
